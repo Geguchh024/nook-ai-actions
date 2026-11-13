@@ -1,0 +1,12 @@
+# Select text anywhere and press the hotkey: Rewrite, Fix grammar, Shorten,
+# Summarize, Translate, Reply or a typed instruction. Provider settings are shared with ai-chat (llm.py).
+id = "ai-actions"
+name = "AI Actions"
+icon = "magic-wand"
+size = "small"
+run = ["python", "main.py"]
+hotkey = "ctrl+alt+KeyI"
+page_size = [620, 400]
+description = "Rewrite, fix grammar, shorten, translate, summarize, reply or follow your own instruction on the selected text (or the clipboard) with Claude, an OpenAI-compatible endpoint, Ollama or LM Studio. Copy the result or paste it back."
+author = "Nook"
+version = "1.1.0"
